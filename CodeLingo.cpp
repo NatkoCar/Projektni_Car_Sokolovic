@@ -20,6 +20,8 @@ int main()
     while (1)
     {
         startScreen();
+        cin >> izbor;
+        cin.ignore();
 
         if (izbor == 1) // Igraj!
         {
