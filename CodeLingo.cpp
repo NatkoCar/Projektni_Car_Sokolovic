@@ -16,25 +16,31 @@ void startScreen()
 
 int main()
 {
-    int izbor;
+    int izbor = 0;
     while (1)
     {
-        startScreen();
+        if (izbor == 0)
+        {
+            startScreen();
+        }
         cin >> izbor;
         cin.ignore();
-
         if (izbor == 1) // Igraj!
         {
         }
 
-        if (izbor == 2) // Rekordi
+        else if (izbor == 2) // Rekordi
         {
         }
 
-        if (izbor == 9)
+        else if (izbor == 9)
         {
             cout << "Doviđenja!" << endl;
             return 0;
+        }
+        else
+        {
+            cout << "Greška. Unesite ponovno: ";
         }
     }
 }
