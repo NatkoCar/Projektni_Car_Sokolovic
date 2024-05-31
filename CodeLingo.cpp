@@ -2,8 +2,15 @@
 #include <fstream>
 #include <string>
 #include <algorithm>
+#include <ctime>
 
 using namespace std;
+
+void clearScreen()
+{
+    printf("\033[2J"
+           "\033[1;1H");
+}
 
 void prazanRed(int brojPraznihRedova)
 {
@@ -13,6 +20,7 @@ void prazanRed(int brojPraznihRedova)
 
 void startScreen()
 {
+    clearScreen();
     cout << "Dobrodošli u CodeLingo!" << endl;
     cout << "1. Igraj!" << endl;
     cout << "2. Rekordi" << endl;
@@ -55,6 +63,7 @@ void redoslijedPitanja(int brPitanja, int index[])
 
 int main()
 {
+    srand(time(0));
     int izbor = 0, brPitanja = 0;
     string ime;
 
