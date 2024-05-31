@@ -1,29 +1,123 @@
-﻿c++:Kakav je programski jezik?
-c++:Kakav je jezik prema programskoj paradigmi?
-c++:Kakav je jezik prema načinu prevođenja?
-c++:Za što se koristi?
-c++:Kako se razdvajaju naredbe?
-c++:Kako se grupiraju naredbe?
-c++:Kako pišemo komentare u jednoj liniji i više?
-c++:Imali li ugrađene funkcje?
-c++:Koliko ugrađenih funkcija ima?
-c++:Koje vrste strukture moze imati kod?
-c++:S kojim funkcijama upisujemo i ispisujemo podake?
-c++:Kako zapisujemo podatke i datoeke a kako ispisujemo?
-c++:Kako dinamički alociramo polje?
-c++:Kako učitavamo cijeli red?
-c++:Što koristimo za pojednostavljivanje rada s pokazivačima?
-c:Kakav je programski jezik?
-c:Za što se koristi?
-c:Kako se razdvajaju naradbe?
-c:Kako se grupiraju naredbe?
-c:Kojim načinom većina današnjih procesora zapisuje u stog?
-c:S kojim funkcijama upisujemo i ispisujemo podake?
-c:Kako dinamički alociramo polje?
-c:Koje vrste strukture moze imati kod?
-c:Imali li ugrađene funkcje?
-
-
+﻿C: Kakav je programski jezik?
+C: Za što se koristi?
+C: Kako se razdvajaju naradbe?
+C: Kako se grupiraju naredbe?
+C: Kojim načinom većina današnjih procesora zapisuje u stog?
+C: S kojim funkcijama upisujemo i ispisujemo podake?
+C: Kako dinamički alociramo polje?
+C: Koje vrste strukture moze imati kod?
+C: Imali li ugrađene funkcje?
+C: Koja biblioteka mora bit dodana za dinamičku alokaciju polja?
+C: Kako se jos može napisati polje[i]? 
+C: Koliko ključnih riječi ima?
+C: Koje vrste podataka postoje? 
+C: Koje vrste modifikatora postoje?
+C: Kako učitavamo cijeli red?
+C++: Kakav je programski jezik?
+C++: Kakav je jezik prema programskoj paradigmi?
+C++: Kakav je jezik prema načinu prevođenja?
+C++: Za što se koristi?
+C++: Kako se razdvajaju naredbe?
+C++: Kako se grupiraju naredbe?
+C++: Kako pišemo komentare u jednoj liniji i više?
+C++: Imali li ugrađene funkcje?
+C++: Koliko ugrađenih funkcija ima?
+C++: Koje vrste strukture moze imati kod?
+C++: S kojim funkcijama upisujemo i ispisujemo podake?
+C++: Kako zapisujemo podatke i datoeke a kako ispisujemo?
+C++: Kako dinamički alociramo polje?
+C++: Kako učitavamo cijeli red?
+C++: Što koristimo za pojednostavljivanje rada s pokazivačima?
+C#: Kakav je programski jezik?
+C#: Kakav je jezik prema programskoj paradigmi?
+C#: 
+C#: 
+C#: 
+C#: 
+C#: 
+C#: 
+C#: 
+C#: 
+C#: 
+C#: 
+C#: 
+C#: 
+C#: 
+Java: 
+Java: 
+Java: 
+Java: 
+Java: 
+Java: 
+Java: 
+Java: 
+Java: 
+Java: 
+Java: 
+Java: 
+Java: 
+Java: 
+Java: 
+JavaScript: 
+JavaScript: 
+JavaScript: 
+JavaScript: 
+JavaScript: 
+JavaScript: 
+JavaScript: 
+JavaScript: 
+JavaScript: 
+JavaScript: 
+JavaScript: 
+JavaScript: 
+JavaScript: 
+JavaScript: 
+JavaScript: 
+Python: 
+Python: 
+Python: 
+Python: 
+Python: 
+Python: 
+Python: 
+Python: 
+Python: 
+Python: 
+Python: 
+Python: 
+Python: 
+Python: 
+Python: 
+Kotlin: 
+Kotlin: 
+Kotlin: 
+Kotlin: 
+Kotlin: 
+Kotlin: 
+Kotlin: 
+Kotlin: 
+Kotlin: 
+Kotlin: 
+Kotlin: 
+Kotlin: 
+Kotlin: 
+Kotlin: 
+Kotlin: 
+PHP: 
+PHP: 
+PHP: 
+PHP: 
+PHP: 
+PHP: 
+PHP: 
+PHP: 
+PHP: 
+PHP: 
+PHP: 
+PHP: 
+PHP: 
+PHP: 
+PHP: 
 
 
 
