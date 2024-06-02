@@ -30,19 +30,19 @@ C++: Kako učitavamo cijeli red?
 C++: Što koristimo za pojednostavljivanje rada s pokazivačima?
 C#: Kakav je programski jezik?
 C#: Kakav je jezik prema programskoj paradigmi?
-C#: 
-C#: 
-C#: 
-C#: 
-C#: 
-C#: 
-C#: 
-C#: 
-C#: 
-C#: 
-C#: 
-C#: 
-C#: 
+C#: Je li C# pseudonim za c++?
+C#: Kako pravilno ispisati "Hello world"?
+C#: Kako zapisujemo komenare?
+C#: Koja funkcija se može iskoristiti za otkrivanje duljine stringa?
+C#: Koja ključna riječ se koristi za kreiranje klase?
+C#: Kako se zove 'specijalna ' klasa koja reprezentira grupu konstanti?
+C#: Kako pravilno deklariramo polje?
+C#: Što je "try block"?
+C#: Što je "final block"?
+C#: Kako nazivamo funkciju?
+C#: Imali li ugrađene funkcije?
+C#: Koja ključna riječ se korisi za deklaraciju varijable čiji će tip biti automatski odlucen od strane kompajlera?
+C#: Koji od operatora vraća tip klase?
 Java: 
 Java: 
 Java: 
