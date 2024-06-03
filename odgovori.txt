@@ -43,51 +43,51 @@ C) predznaka i veličine
 A) scanf("%[^\n]",str);
 B) gets(&str);
 C) fgets(str,velicina,FILE);
-A) 
-B) 
-C) 
-A) 
-B) 
-C) 
-A) 
-B) 
-C) 
-A) 
-B) 
-C) 
-A) 
-B) 
-C) 
-A) 
-B) 
-C) 
-A) 
-B) 
-C) 
-A) 
-B) 
-C) 
-A) 
-B) 
-C) 
-A) 
-B) 
-C) 
-A) 
-B) 
-C) 
-A) 
-B) 
-C) 
-A) 
-B) 
-C) 
-A) 
-B) 
-C) 
-A) 
-B) 
-C) 
+A) Srednji programski jezik
+B) Viši programski jezik
+C) Niži programski jezik
+A) Proceduralni programski jezik
+B) Objetno orijeniran programski jezik
+C) Funkcionalan programski jezik
+A) Asembler
+B) Kompajler
+C) Interpretator
+A) Puštanje muzike
+B) uređivanje stranica
+C) Razvoj igrica, znanstveno računalstvo, aplikacije visokih preformansi
+A) :
+B) ;
+C) ,
+A) ()
+B) []
+C) {}
+A) S // u jednoj liniji, a s /* */ u više 
+B) S // u oba slučaja
+C) S /* u oba slučaja
+A) Ne
+B) Da
+C) Možda
+A) 12
+B) 0
+C) više od 20
+A) razgranata, cetripetalna i linearna
+B) linijska, ciklička i razgranata
+C) ciklička, razdvajajuča i kolinearna
+A) upisujemo s cin funkcijom, a ispisujemo s cout
+B) upisujemo s scanf,a ispisujemo s printf
+C) upisujemo s in, a ispisujemo s out
+A) datoteka>>var i datoteka<<"tekst"
+B) get.datoteka i out.datoteka 
+C) line.in<<datoteka i line.out>>datoteka 
+A) tip + naziv = new ip[velićina];
+B) tip naziv[velićina];
+C) tip * naziv = new ip[velićina];
+A) getline(cin,naziv);
+B) c.getline(naziv);
+C) get.line(cin,naziv);
+A) AI
+B) Puove
+C) Reference
 A) 
 B) 
 C) 

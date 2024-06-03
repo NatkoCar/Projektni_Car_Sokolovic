@@ -24,7 +24,7 @@ C++: Imali li ugrađene funkcje?
 C++: Koliko ugrađenih funkcija ima?
 C++: Koje vrste strukture moze imati kod?
 C++: S kojim funkcijama upisujemo i ispisujemo podake?
-C++: Kako zapisujemo podatke i datoeke a kako ispisujemo?
+C++: Kako zapisujemo podatke u datoteke, a kako ispisujemo?
 C++: Kako dinamički alociramo polje?
 C++: Kako učitavamo cijeli red?
 C++: Što koristimo za pojednostavljivanje rada s pokazivačima?
