@@ -1,4 +1,4 @@
-﻿C: Kakav je programski jezik?
+﻿C: Kakav je to programski jezik?
 C: Za što se koristi?
 C: Kako se razdvajaju naradbe?
 C: Kako se grupiraju naredbe?
@@ -6,7 +6,7 @@ C: Kojim načinom većina današnjih procesora zapisuje u stog?
 C: S kojim funkcijama upisujemo i ispisujemo podake?
 C: Kako dinamički alociramo polje?
 C: Koje vrste strukture moze imati kod?
-C: Imali li ugrađene funkcje?
+C: Postoje li ugrađene funkcje?
 C: Koja biblioteka mora bit dodana za dinamičku alokaciju polja?
 C: Kako se jos može napisati polje[i]? 
 C: Koliko ključnih riječi ima?
