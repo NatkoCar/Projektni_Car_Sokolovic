@@ -31,8 +31,8 @@ C++: Što koristimo za pojednostavljivanje rada s pokazivačima?
 C#: Kakav je to programski jezik?
 C#: Kakav je jezik prema programskoj paradigmi?
 C#: Je li C# pseudonim za C++?
-C#: Kako pravilno ispisati "Hello world"?
-C#: Kako zapisujemo komenare?
+C#: Kako pravilno ispisati "Hello World"?
+C#: Kako zapisujemo komentare?
 C#: Koja funkcija se može iskoristiti za otkrivanje duljine stringa?
 C#: Koja ključna riječ se koristi za kreiranje klase?
 C#: Kako se zove "specijalna" klasa koja reprezentira grupu konstanti?
