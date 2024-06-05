@@ -115,24 +115,24 @@ C) special
 A) tip naziv = new tip[];
 B) tip naziv = new naziv[];
 C) tip naziv[];
-A) naredba koja 
+A) naredba koja određuje predzadnji dio koda
 B) skupina naredbi koje će biti testirane na pogreške dok se izvršava kod 
-C) 
-A) 
-B) 
-C) 
-A) 
-B) 
-C) 
-A) 
-B) 
-C) 
-A) 
-B) 
-C) 
-A) 
-B) 
-C) 
+C) skupina naredbi koje če ispisati "Try me" dok se ne ugasi kod
+A) skupina naredbi koje se ne izvršavaju
+B) ključna riječ koja služio kao return 0 u c#
+C) Dio koda koji se uvijek izvršava
+A) Metoda
+B) funkcija
+C) zadatak
+A) Naravno, isto kao u c++-u
+B) Nisam siguran
+C) Nema, jer je objektno orijentiran jezik
+A) neznam
+B) comp
+C) var
+A) get.classtype
+B) typeof
+C) classtype
 A) 
 B) 
 C) 
