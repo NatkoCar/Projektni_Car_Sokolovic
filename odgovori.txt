@@ -100,23 +100,23 @@ C) Što je c++?
 A) Console.WriteLine("Hello World");  
 B) cout<<"Hello World";
 C) System.out.println("Hello World");  
-A) 
-B) Sa // u jednoj liniji, a sa /* */ u više linija
-C) S //
-A) 
-B) 
-C) 
-A) 
-B) 
-C) 
-A) 
-B) 
-C) 
-A) 
-B) 
-C) 
-A) 
-B) 
+A) S /* */
+B) S //
+C) Sa // u jednoj liniji, a sa /* */ u više linija
+A) lenght()
+B) Length
+C) lenght
+A) class
+B) Class()
+C) Class
+A) const
+B) enum
+C) special
+A) tip naziv = new tip[];
+B) tip naziv = new naziv[];
+C) tip naziv[];
+A) naredba koja 
+B) skupina naredbi koje će biti testirane na pogreške dok se izvršava kod 
 C) 
 A) 
 B) 
