@@ -1,10 +1,50 @@
-Z: 
-Z: 
-Z: 
-Z: 
-Z: 
-Z: 
-Z: 
-Z: 
-Z: 
-Z: 
+Z: Koje godine je C prvi put izašao?
+Z: Po čemu je Python dobio ime?
+Z: Koji od navedenih jezika koristi column-major?
+Z: Odaberite točnu liniju.
+Z: Odaberite točnu liniju.
+Z: Koji programski jezik je izažao 1954.?
+Z: Koja je prva igra napravljena u Unity-ju?
+Z: Kako se zove jezik koji je kombinacija C, C++ i Jave?
+Z: Hoće li Kotlin ikada zamijeniti Javu?
+Z: Kada je napravljena prva stranica u JavaScriptu?
+A) 1971.
+B) 1972.
+C) 1973.
+A) Po zmiji
+B) Po igri zmijica
+C) Po seriji Monty Python
+A) Kotlin
+B) Fortran
+C) Erlang
+A) 
+B) 
+C) datoteka.write();
+A) 
+B) //anonimna funkcija
+C) 
+A) Fortran
+B) Basic
+C) Algol
+A) Dead Frontier
+B) GooBall
+C) Off-Road Velociraptor Safari
+A) D
+B) L
+C) N
+A) Hoće dok smo mi živi
+B) Nikada
+C) Možda, al ne u našim životima
+A) 1995.
+B) 1996.
+C) 1997.
+b
+c
+b
+c
+b
+a
+b
+a
+c
+a
