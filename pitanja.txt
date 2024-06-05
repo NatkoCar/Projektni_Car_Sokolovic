@@ -2,46 +2,46 @@
 C: Za što se koristi?
 C: Kako se razdvajaju naradbe?
 C: Kako se grupiraju naredbe?
-C: Kojim načinom većina današnjih procesora zapisuje u stog?
+C: Kojim načinom većina današnjih procesora zapisuje podatke u stog?
 C: S kojim funkcijama upisujemo i ispisujemo podake?
 C: Kako dinamički alociramo polje?
-C: Koje vrste strukture moze imati kod?
+C: Koje vrste strukture može imati kod?
 C: Postoje li ugrađene funkcje?
 C: Koja biblioteka mora bit dodana za dinamičku alokaciju polja?
-C: Kako se jos može napisati polje[i]? 
+C: Kako se još može napisati polje[i]? 
 C: Koliko ključnih riječi ima?
 C: Koje vrste podataka postoje? 
 C: Koje vrste modifikatora postoje?
 C: Kako učitavamo cijeli red?
-C++: Kakav je programski jezik?
+C++: Kakav je to programski jezik?
 C++: Kakav je jezik prema programskoj paradigmi?
 C++: Kakav je jezik prema načinu prevođenja?
 C++: Za što se koristi?
 C++: Kako se razdvajaju naredbe?
 C++: Kako se grupiraju naredbe?
-C++: Kako pišemo komentare u jednoj liniji i više?
-C++: Imali li ugrađene funkcje?
+C++: Kako pišemo komentare u jednoj i više linija?
+C++: Postoje li ugrađene funkcje?
 C++: Koliko ugrađenih funkcija ima?
-C++: Koje vrste strukture moze imati kod?
+C++: Koje vrste strukture može imati kod?
 C++: S kojim funkcijama upisujemo i ispisujemo podake?
 C++: Kako zapisujemo podatke u datoteke, a kako ispisujemo?
 C++: Kako dinamički alociramo polje?
 C++: Kako učitavamo cijeli red?
 C++: Što koristimo za pojednostavljivanje rada s pokazivačima?
-C#: Kakav je programski jezik?
+C#: Kakav je to programski jezik?
 C#: Kakav je jezik prema programskoj paradigmi?
-C#: Je li C# pseudonim za c++?
+C#: Je li C# pseudonim za C++?
 C#: Kako pravilno ispisati "Hello world"?
 C#: Kako zapisujemo komenare?
 C#: Koja funkcija se može iskoristiti za otkrivanje duljine stringa?
 C#: Koja ključna riječ se koristi za kreiranje klase?
-C#: Kako se zove 'specijalna ' klasa koja reprezentira grupu konstanti?
+C#: Kako se zove "specijalna" klasa koja reprezentira grupu konstanti?
 C#: Kako pravilno deklariramo polje?
 C#: Što je "try block"?
 C#: Što je "final block"?
 C#: Kako nazivamo funkciju?
-C#: Imali li ugrađene funkcije?
-C#: Koja ključna riječ se korisi za deklaraciju varijable čiji će tip biti automatski odlucen od strane kompajlera?
+C#: Postoje li ugrađene funkcije?
+C#: Koja ključna riječ se korisi za deklaraciju varijable čiji će tip biti automatski odlučen od strane kompajlera?
 C#: Koji od operatora vraća tip klase?
 Java: 
 Java: 

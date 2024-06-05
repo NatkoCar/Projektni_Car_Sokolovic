@@ -8,6 +8,16 @@ Z: Koja je prva igra napravljena u Unity-ju?
 Z: Kako se zove jezik koji je kombinacija C, C++ i Jave?
 Z: Hoće li Kotlin ikada zamijeniti Javu?
 Z: Kada je napravljena prva stranica u JavaScriptu?
+Z: 
+Z: 
+Z: 
+Z: 
+Z: 
+Z: 
+Z: 
+Z: 
+Z: 
+Z: 
 A) 1971.
 B) 1972.
 C) 1973.
@@ -17,12 +27,12 @@ C) Po seriji Monty Python
 A) Kotlin
 B) Fortran
 C) Erlang
-A) 
-B) 
-C) datoteka.write();
-A) 
-B) //anonimna funkcija
-C) 
+A) datoteka.write((char *)Ucenik,sizeof(Ucenik)*(brUcenika+n));
+B) datoteka.write((char *)ucenici,sizeof(ucenici)*(brUcenika+n));
+C) datoteka.write((char *)ucenici,sizeof(Ucenik)*(brUcenika+n)); 
+A) count_if(polje,polje+n,[](int i){return i>0});
+B) count_if(polje,polje+n,[](int i){return i>0;});
+C) count_if(polje,polje+n,[](int i){return n>0;});
 A) Fortran
 B) Basic
 C) Algol
@@ -38,6 +48,36 @@ C) Možda, al ne u našim životima
 A) 1995.
 B) 1996.
 C) 1997.
+A) 
+B) 
+C) 
+A) 
+B) 
+C) 
+A) 
+B) 
+C) 
+A) 
+B) 
+C) 
+A) 
+B) 
+C) 
+A) 
+B) 
+C) 
+A) 
+B) 
+C) 
+A) 
+B) 
+C) 
+A) 
+B) 
+C) 
+A) 
+B) 
+C) 
 b
 c
 b
@@ -48,3 +88,13 @@ b
 a
 c
 a
+a
+c
+a
+b
+c
+a
+b
+b
+c
+b

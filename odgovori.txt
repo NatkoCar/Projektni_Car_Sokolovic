@@ -19,9 +19,9 @@ C) input i output
 A) tip polje=(tip *)malloc(veličina*sizeof(tip));
 B) tip *polje=(tip *)malloc(veličina*sizeof(tip));
 C) tip *polje=(tip *)malloc(veličina*sizeof(tip *));
-A) int i double
-B) char i string
-C) float i char
+A) Linijska, ciklička i razgranata
+B) Razgranata, cetripetalna i linearna
+C) Ciklička, razdvajajuća i kolinearna
 A) Postoje
 B) Ne postoje
 C) Možda postoje, možda ne, nikad nećemo saznati :)
@@ -47,41 +47,41 @@ A) Srednji programski jezik
 B) Viši programski jezik
 C) Niži programski jezik
 A) Proceduralni programski jezik
-B) Objetno orijeniran programski jezik
-C) Funkcionalan programski jezik
+B) Objetno orijentirani programski jezik
+C) Funkcionalni programski jezik
 A) Asembler
-B) Kompajler
+B) Compiler
 C) Interpretator
 A) Puštanje muzike
-B) uređivanje stranica
+B) Uređivanje stranica
 C) Razvoj igrica, znanstveno računalstvo, aplikacije visokih preformansi
-A) :
-B) ;
-C) ,
-A) ()
-B) []
-C) {}
-A) S // u jednoj liniji, a s /* */ u više 
-B) S // u oba slučaja
-C) S /* u oba slučaja
-A) Ne
-B) Da
-C) Možda
+A) Sa :
+B) Sa ;
+C) Sa ,
+A) Sa ()
+B) Sa []
+C) Sa {}
+A) Sa // u jednoj liniji, a sa /* */ u više linija
+B) Sa // u oba slučaja
+C) Sa /* */ u oba slučaja
+A) Ne postoje
+B) Postoje
+C) Možda postoje, možda ne, nikad nećemo saznati :)
 A) 12
 B) 0
-C) više od 20
-A) razgranata, cetripetalna i linearna
-B) linijska, ciklička i razgranata
-C) ciklička, razdvajajuča i kolinearna
-A) upisujemo s cin funkcijom, a ispisujemo s cout
-B) upisujemo s scanf,a ispisujemo s printf
-C) upisujemo s in, a ispisujemo s out
+C) Više od 20
+A) Razgranata, cetripetalna i linearna
+B) Linijska, ciklička i razgranata
+C) Ciklička, razdvajajuća i kolinearna
+A) Upisujemo s cin funkcijom, a ispisujemo s cout
+B) Upisujemo sa scanf,a ispisujemo s printf
+C) Upisujemo s in, a ispisujemo s out
 A) datoteka>>var i datoteka<<"tekst"
 B) get.datoteka i out.datoteka 
 C) line.in<<datoteka i line.out>>datoteka 
-A) tip + naziv = new ip[velićina];
-B) tip naziv[velićina];
-C) tip * naziv = new ip[velićina];
+A) tip +naziv = new tip[veličina];
+B) tip naziv[veličina];
+C) tip *naziv = new tip[veličina];
 A) getline(cin,naziv);
 B) c.getline(naziv);
 C) get.line(cin,naziv);

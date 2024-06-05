@@ -5,7 +5,7 @@ b
 a
 a
 b
-ac
+a
 a
 a
 c
@@ -14,7 +14,7 @@ ab
 bc
 ac
 b
-a
+ab
 b
 c
 b
