@@ -91,8 +91,8 @@ C) Reference
 A) Viši programski jezik
 B) Srednji programski jezik
 C) Niži programski jezik
-A) strukturno orijentirani jezik
-B) objektno orijetirani jezik
+A) Strukturno orijentirani jezik
+B) Objektno orijetirani jezik
 C) Proceduralni programski jezik
 A) Da, logički
 B) Ne, to su dva različita jezika
@@ -100,12 +100,12 @@ C) Što je c++?
 A) Console.WriteLine("Hello World");  
 B) cout<<"Hello World";
 C) System.out.println("Hello World");  
-A) S /* */
-B) S //
+A) Sa /* */
+B) Sa //
 C) Sa // u jednoj liniji, a sa /* */ u više linija
-A) lenght()
+A) length()
 B) Length
-C) lenght
+C) length
 A) class
 B) Class()
 C) Class
