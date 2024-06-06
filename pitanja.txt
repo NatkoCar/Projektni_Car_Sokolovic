@@ -43,9 +43,9 @@ C#: Kako nazivamo funkciju?
 C#: Postoje li ugrađene funkcije?
 C#: Koja ključna riječ se korisi za deklaraciju varijable čiji će tip biti automatski odlučen od strane kompajlera?
 C#: Koji od operatora vraća tip klase?
-Java: 
-Java: 
-Java: 
+Java: Kako pravilno ispisati "Hello World"?
+Java: Je li Java skracenica za JavaScript?
+Java: Kako zapisujemo komentare?
 Java: 
 Java: 
 Java: 
