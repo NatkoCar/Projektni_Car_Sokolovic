@@ -46,18 +46,18 @@ C#: Koji od operatora vraća tip klase?
 Java: Kako pravilno ispisati "Hello World"?
 Java: Je li Java skracenica za JavaScript?
 Java: Kako zapisujemo komentare?
-Java: 
-Java: 
-Java: 
-Java: 
-Java: 
-Java: 
-Java: 
-Java: 
-Java: 
-Java: 
-Java: 
-Java: 
+Java: Gjde se sprema objek?
+Java: Koja linija vrača elemente enuma?
+Java: Koji operator se koristi za dinamičku alokaciju polja? 
+Java: Koja linija će sortirati polje?
+Java: Gdje se sprema polje?
+Java: Koja linija će kopirati podatke polja?
+Java: Generici ne radi sa?
+Java: Koji od navedenih nije OOP koncept?
+Java: Koja petlja je najbolja kada je poznat broj ponavljanja?
+Java: Koja je vrsta petlje najpoznatija po svom booleovom uvjetu koji kontrolira ulaz u petlju?
+Java: Što se dogodi kada se dva stringa spoje s znakom +?
+Java: Koja metoda služi za uspoređivanje stringova?
 JavaScript: 
 JavaScript: 
 JavaScript: 
@@ -88,21 +88,21 @@ Python:
 Python: 
 Python: 
 Python: 
-Kotlin: 
-Kotlin: 
-Kotlin: 
-Kotlin: 
-Kotlin: 
-Kotlin: 
-Kotlin: 
-Kotlin: 
-Kotlin: 
-Kotlin: 
-Kotlin: 
-Kotlin: 
-Kotlin: 
-Kotlin: 
-Kotlin: 
+Kotlin: U što se prevodi?
+Kotlin: Je li ; obavezan na kraju svake naredbe?
+Kotlin: Koje funkcije koristimo za ispis podataka?
+Kotlin: Što od navedenog ne može biti tip varijable?
+Kotlin: Koji od navedenih je Elvis operator?
+Kotlin: Što radi Elvis operator?
+Kotlin: Šro vrača operaor "!!"?
+Kotlin: Ima li ugrađene funkcije?
+Kotlin: Što je lambda?
+Kotlin: Je li potpuno funkcijski jezik?
+Kotlin: što je funkcija koja za argument ima neku funkciju?
+Kotlin: Koja ključna riječ se koristi za deklaraciju funkcije?
+Kotlin: Kako pravilno ispisati "Hello World"?
+Kotlin: Koji simbol se korsti za predložak stringa?
+Kotlin: Koja linija će kreirati polje?
 PHP: 
 PHP: 
 PHP: 
@@ -122,7 +122,4 @@ PHP:
 
 
 
-//sedam dana
-//sedam noći
-//čekao sam
-//kad ćeš doći
+//sedam dana sedam noci cekao sm kad ces doci
