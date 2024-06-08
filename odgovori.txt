@@ -96,7 +96,7 @@ B) Objektno orijetirani jezik
 C) Proceduralni programski jezik
 A) Da, logički
 B) Ne, to su dva različita jezika
-C) Što je c++?
+C) Što je C++?
 A) Console.WriteLine("Hello World");  
 B) cout<<"Hello World";
 C) System.out.println("Hello World");  
@@ -119,14 +119,14 @@ A) naredba koja određuje predzadnji dio koda
 B) skupina naredbi koje će biti testirane na pogreške dok se izvršava kod 
 C) skupina naredbi koje če ispisati "Try me" dok se ne ugasi kod
 A) skupina naredbi koje se ne izvršavaju
-B) ključna riječ koja služio kao return 0 u c#
+B) ključna riječ koja služio kao return 0 u C#
 C) Dio koda koji se uvijek izvršava
 A) Metoda
-B) funkcija
-C) zadatak
-A) Naravno, isto kao u c++-u
+B) Funkcija
+C) Zadatak
+A) Naravno, isto kao u C++
 B) Nisam siguran
-C) Nema, jer je objektno orijentiran jezik
+C) Nema, jer je objektno orijentirani jezik
 A) neznam
 B) comp
 C) var

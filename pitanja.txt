@@ -122,4 +122,7 @@ PHP:
 
 
 
-//sedam dana sedam noci cekao sm kad ces doci
+//sedam dana
+//sedam noći
+//čekao sam
+//kad ćeš doći
