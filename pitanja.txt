@@ -103,21 +103,21 @@ Kotlin: Koja ključna riječ se koristi za deklaraciju funkcije?
 Kotlin: Kako pravilno ispisati "Hello World"?
 Kotlin: Koji simbol se korsti za predložak stringa?
 Kotlin: Koja linija će kreirati polje?
-PHP: 
-PHP: 
-PHP: 
-PHP: 
-PHP: 
-PHP: 
-PHP: 
-PHP: 
-PHP: 
-PHP: 
-PHP: 
-PHP: 
-PHP: 
-PHP: 
-PHP: 
+PHP: Za što stoji kratica PHP?
+PHP: Kako pravilno ispisati "Hello Wolrd"? 
+PHP: S kojim znakom počinje naziv svake varijable?
+PHP: Sa kojim znakom završavamo naredbu?
+PHP: Kojem jeziku je najsličniji po sintaksi?
+PHP: S kojim znakovima označavamo stringove?
+PHP: Trebaju li biblioteke imati ".inc" ekstenziju?
+PHP: Kako deklariramo funkciju?
+PHP: Dopušta sljanje emailova direktno iz skripte?
+PHP: Koja je točna linija?
+PHP: Kako zapisujemo komentare?
+PHP: Rade li funkcije die() i exit() istu stvar?
+PHP: Kako kreiramo kolačiće?
+PHP: Koji operaor uspoređuje dvije varijable istog tipa?
+PHP: Kako kreiramo polje?
 
 
 
