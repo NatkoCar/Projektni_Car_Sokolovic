@@ -58,21 +58,21 @@ Java: Koja petlja je najbolja kada je poznat broj ponavljanja?
 Java: Koja je vrsta petlje najpoznatija po svom booleovom uvjetu koji kontrolira ulaz u petlju?
 Java: Što se dogodi kada se dva stringa spoje s znakom +?
 Java: Koja metoda služi za uspoređivanje stringova?
-JavaScript: 
-JavaScript: 
-JavaScript: 
-JavaScript: 
-JavaScript: 
-JavaScript: 
-JavaScript: 
-JavaScript: 
-JavaScript: 
-JavaScript: 
-JavaScript: 
-JavaScript: 
-JavaScript: 
-JavaScript: 
-JavaScript: 
+JavaScript: Unutar kojeg html elementa stavljamo JavaScript?
+JavaScript: Gdje je točno mjesto za umetnut javascript?
+JavaScript: Kako ispisati "Hello World" u alert box-u?
+JavaScript: Kako zapisujemo komentare?
+JavaScript: Koji je točan način za napisati polje?
+JavaScript: Kako zaokružujemo broj 7.25 na najbliži cijeli broj?
+JavaScript: Koji je točan način za otvaranje novog prozora zvanog "w2"?
+JavaScript: JavaScript je isto kao Java?
+JavaScript: Kako možemo detektirati korisnikovo ime na pregledniku?
+JavaScript: Kako deklariramo varijablu?
+JavaScript: Je li javaScript osjetljiv na velika i mala slova?
+JavaScript: Je li javascript ECMAScript?
+JavaScript: Što je NULL?
+JavaScript: Funkcija može biti pridružena varijabli?
+JavaScript: Koristi li "catch block"?
 Python: Kako pravilno ispisati "Hello World"?
 Python: Koja je točna ekstenzija za datoteke?
 Python: Koja linija će ispisati tip varijable x?
