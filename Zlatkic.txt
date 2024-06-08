@@ -8,8 +8,8 @@ Z: Koja je prva igra napravljena u Unity-ju?
 Z: Kako se zove jezik koji je kombinacija C, C++ i Jave?
 Z: Hoće li Kotlin ikada zamijeniti Javu?
 Z: Kada je napravljena prva stranica u JavaScriptu?
-Z: Koje od navedenih klasa se nalazi u java.lang paketu?
-Z: Koji programski jezik se smatra prvim objektno orijentiranim jezikom?
+Z: 
+Z: 
 Z: 
 Z: 
 Z: 
@@ -98,3 +98,4 @@ b
 b
 c
 b
+//Which keyword is used to import a package from the Java API library?

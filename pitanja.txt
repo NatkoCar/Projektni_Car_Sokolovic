@@ -73,21 +73,21 @@ JavaScript:
 JavaScript: 
 JavaScript: 
 JavaScript: 
-Python: 
-Python: 
-Python: 
-Python: 
-Python: 
-Python: 
-Python: 
-Python: 
-Python: 
-Python: 
-Python: 
-Python: 
-Python: 
-Python: 
-Python: 
+Python: Kako pravilno ispisati "Hello World"?
+Python: Koja je točna ekstenzija za datoteke?
+Python: Koja linija će ispisati tip varijable x?
+Python: Koji je toćan način za kreiranje funkcije?
+Python: Koja metoda se koristi za brisanje razmaka na početku i kraju stringa?
+Python: Koje on navedenog ne može biti naziv varijable?
+Python: Koja funkcija vraća tip varijable?
+Python: Kako pisemo komentare?
+Python: Kako unosimo, a kako ispisujemo podatke?
+Python: Svi članovi klase su po zadanim postavkama?
+Python: Koji od navedenih nije ugrađeni error? 
+Python: Koji od navedenih aributa vraća naziv modula?
+Python: Što je "self"?
+Python: Koji od navedenih znakova sprema rezultat prošle evaluacije? 
+Python: Ključna riječ "else" se može koristiti zajedno sa?
 Kotlin: U što se prevodi?
 Kotlin: Je li ; obavezan na kraju svake naredbe?
 Kotlin: Koje funkcije koristimo za ispis podataka?
