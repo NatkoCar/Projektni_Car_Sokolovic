@@ -133,35 +133,35 @@ C) var
 A) get.classtype
 B) typeof
 C) classtype
-A) 
+A) Console.WriteLine("Hello World"); 
 B) System.out.println("Hello World");  
-C) 
-A) 
-B) 
+C) cout<<"Hello World";
+A) Naravno da je
+B) Možda, nisam siguran/na
 C) Ne
 A) Isto kao u Pascal-u
 B) Isto kao u Python-u
 C) Isto kao u C#
-A) 
+A) u cash-u
 B) na heap-u
-C) 
-A) 
-B) 
+C) na hard disku
+A) getEnum()
+B) GetEnum()
 C) getEnumConstants()
 A) new
-B) 
-C) 
+B) Array
+C) Dinamic
 A) Arrays.sort()
-B) 
-C) 
-A) 
+B) sort.array()
+C) Sort()
+A) u SSD-u
 B) u procesoru
 C) isto kao i objekt
-A) 
-B) 
+A) Arra.copy()
+B) Copy.System()
 C) System.arrayCopy()
-A) 
-B) 
+A) komentarima
+B) tipovima referenci
 C) poljima
 A) 
 B) 
