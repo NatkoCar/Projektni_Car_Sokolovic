@@ -59,7 +59,13 @@ void unosIgraca(string &ime)
     cout << "Unesite svoje ime: ";
     getline(cin, ime);
 }
-
+void Zlatko(string &ime,int &brPitanja){
+    if(ime=="Zlako Damijanić"){
+        brPitanja=30;
+    }
+}
+void Zpitanja(int index[]){
+}
 void brojPitanja(int &brPitanja)
 {
     cout << "Na koliko pitanja želite odgovoriti? (1-120) ";

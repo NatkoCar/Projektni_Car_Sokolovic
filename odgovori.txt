@@ -346,15 +346,15 @@ C)
 A) 
 B) 
 C) 
-A) 
-B) 
-C) 
-A) 
-B) 
-C) 
-A) 
-B) 
-C) 
-A) 
-B) 
-C) 
+A) Jesu
+B) Ne, rade sličnu stvar ali nisu
+C) Možda
+A) createcookie
+B) setcookie()
+C) makecookie()
+A) =
+B) ==
+C) ===
+A) $polje = array["Volvo", "BMW", "Toyota"];
+B) $polje = array("Volvo", "BMW", "Toyota");
+C) $polje = array "Volvo", "BMW", "Toyota";
