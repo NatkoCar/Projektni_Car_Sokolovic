@@ -163,21 +163,21 @@ C) System.arrayCopy()
 A) komentarima
 B) tipovima referenci
 C) poljima
-A) 
-B) 
-C) 
-A) 
+A) dekapsulacija
+B) abstrakcija
+C) enkapsulacija
+A) while
 B) for
-C) 
-A) 
+C) do-while
+A) for
 B) while
-C) 
+C) do-while
 A) novi string objekt se kreira
-B) 
-C) 
-A) 
+B) u jedan od sringa se spreme obadvije vrijednosti
+C) ibrišu se vrijednosti iz stringova
+A) compare()
 B) equals()
-C) 
+C) string.c()
 A) 
 B) 
 C) 
