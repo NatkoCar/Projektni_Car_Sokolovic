@@ -268,51 +268,51 @@ C)
 A) 
 B) 
 C) 
-A) 
-B) 
-C) 
-A) 
-B) 
-C) 
-A) 
-B) 
-C) 
-A) 
-B) 
-C) 
-A) 
-B) 
-C) 
-A) 
-B) 
-C) 
-A) 
-B) 
-C) 
-A) 
-B) 
-C) 
-A) 
-B) 
-C) 
-A) 
-B) 
-C) 
-A) 
-B) 
-C) 
-A) 
-B) 
-C) 
-A) 
-B) 
-C) 
-A) 
-B) 
-C) 
-A) 
-B) 
-C) 
+A) na engleski
+B) neznam, to je prenapredno za mene
+C) u jezik po odabiru
+A) Možda
+B) naravno da je
+C) nije
+A) println
+B) printf
+C) cout
+A) float
+B) Dead
+C) int
+A) ?;
+B) ?:
+C) :?
+A) provjerava uvjet te elemenu daje jednu od vrijednosti, ovisno o zadovoljenosti uvjeta
+B) provjerava veličinu varijable
+C) provjerava adresu varijable
+A) Je li varijabla jednaka NULL
+B) je li varijabla blizu NULL
+C) Je li varijabla pozitivan broj
+A) neznam
+B) Nema
+C) Ima
+A) kinesko slovo
+B) anonimna funkcija
+c) lainsko slovo
+A) ne, samo podržava takvo programiranje
+B) možda
+C) naravno da je
+A) funkcija višeg stupnja
+B) lambda
+C) funkcija višeg reda
+A) fun
+B) function 
+C) create
+A) Console.WriteLine("Hello World");
+B) println("Hello World")  
+C) System.out.printline("Hello World")
+A) ?
+B) $
+C) &
+A) The arrayOf() function
+B) {}
+C) []
 A) Personal Hypertext Processor
 B) Hypertext Preprocessor
 C) Private Home Page  
