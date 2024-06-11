@@ -313,39 +313,39 @@ C)
 A) 
 B) 
 C) 
+A) Personal Hypertext Processor
+B) Hypertext Preprocessor
+C) Private Home Page  
+A) Document.Write("Hello World");  
+B) "Hello World";
+C) echo "Hello World";  
+A) &
+B) $
+C) #
+A) ;
+B) ništa
+C) .
+A) VBScript
+B) JavaScript
+C) Pearl i C
+A) ' ' ili " "
+B) isključivo s " "
+C) bez posebnih znakova
+A) Možda, nisam siguran/na
+B) Ne
+C) Da, naravno
+A) create myFunction()
+B) new_function myFunction()
+C) function myFunction()
+A) Možda
+B) Da
+C) Ne
 A) 
 B) 
 C) 
-A) 
-B) 
-C) 
-A) 
-B) 
-C) 
-A) 
-B) 
-C) 
-A) 
-B) 
-C) 
-A) 
-B) 
-C) 
-A) 
-B) 
-C) 
-A) 
-B) 
-C) 
-A) 
-B) 
-C) 
-A) 
-B) 
-C) 
-A) 
-B) 
-C) 
+A) slićno c-u ali za jednu liniju se može kao i u pythonu
+B) isto kao i u JavaScriptu
+C) slićno kao u C#
 A) Jesu
 B) Ne, rade sličnu stvar ali nisu
 C) Možda
