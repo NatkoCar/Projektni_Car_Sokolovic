@@ -8,9 +8,10 @@ using namespace std;
 
 struct Igrac
 {
-    char ime[50];
+    string ime;
     int bodovi;
     int pitanja;
+    double prosjek;
 };
 
 struct Pitanja
@@ -176,6 +177,34 @@ void leaderboard(int &izbor_L, int brIgraca30, int brIgraca60, int brIgraca90, i
     }
 }
 
+void zapisIgraca(int t, string ime, int bodovi, int brPitanja, double prosjek)
+{
+    struct Igrac igrac[41];
+    igrac[t].ime = ime;
+    igrac[t].bodovi = bodovi;
+    igrac[t].pitanja = brPitanja;
+    igrac[t].prosjek = prosjek;
+}
+
+void sortiranjeIgracaPitanja(int brIgraca30, int brIgraca60, int brIgraca90, int brIgraca120)
+{
+    struct Igrac igrac[41];
+    int t = brIgraca120 + brIgraca90 + brIgraca60 + brIgraca30;
+    for (int i = 0; i < t - 1; i++)
+        for (int j = i + 1; j < t; j++)
+            if (igrac[i].pitanja < igrac[j].pitanja)
+                swap(igrac[i], igrac[j]);
+}
+
+void sortiranjeIgracaProsjek(int brIgraca, int t)
+{
+    struct Igrac igrac[41];
+    for (int i = 0; i < brIgraca - 1; i++)
+        for (int j = i + 1; j < brIgraca; j++)
+            if (igrac[i + t].prosjek < igrac[j + t].prosjek)
+                swap(igrac[i + t], igrac[j + t]);
+}
+
 int main()
 {
     srand(time(0));
@@ -242,11 +271,15 @@ int main()
                 index[i] = 0;
             redoslijedPitanja(brPitanja, index);
             struct Pitanja pita[brPitanja];
+            for (int i = 0; i < brPitanja; i++)
+            {
+                cout << index[i] << " ";
+            }
 
             // datoteke - pitanja
             {
-                fstream pit("pitanja.txt", ios::in);
-                while (pit.read((char *)&pitanje, sizeof(pitanje)))
+                fstream pit("C:\\Users\\Ga-gama\\Documents\\GitHub\\Projektni_Car_Sokolovic\\pitanja.txt", ios::in);
+                while (getline(pit, pitanje))
                 {
                     pita[index[t]].pitanje = pitanje;
                     t++;
@@ -255,8 +288,8 @@ int main()
                 }
                 pit.close();
                 t = 0;
-                fstream toc("tocni_odgovori.txt", ios::in);
-                while (toc.read((char *)&tocan, sizeof(tocan)))
+                fstream toc("C:\\Users\\Ga-gama\\Documents\\GitHub\\Projektni_Car_Sokolovic\\tocni_odgovori.txt", ios::in);
+                while (getline(toc, tocan))
                 {
                     pita[index[t]].tocanOdgovor = tocan;
                     t++;
@@ -265,18 +298,18 @@ int main()
                 }
                 toc.close();
                 t = 0;
-                fstream odg("odgovori.txt", ios::in);
-                while (odg.read((char *)&odgovor, sizeof(odgovor)))
+                fstream odg("C:\\Users\\Ga-gama\\Documents\\GitHub\\Projektni_Car_Sokolovic\\odgovori.txt", ios::in);
+                while (getline(odg, odgovor))
                 {
                     if (t == 0)
                     {
                         pita[index[t]].odgovor1 = odgovor;
-                        t++;
+                        t = 1;
                     }
                     else if (t == 1)
                     {
                         pita[index[t]].odgovor2 = odgovor;
-                        t++;
+                        t = 2;
                     }
                     else if (t == 2)
                     {
@@ -310,8 +343,65 @@ int main()
                 }
             }
             prazanRed(3);
-            cout << "Osvojili ste " << bodovi << " bodova u " << brPitanja << "!" << endl;
+            cout << "Osvojili ste " << bodovi << " bodova u " << brPitanja << " pitanja!" << endl;
             double prosjek = (double)bodovi / (double)brPitanja;
+            t = 0;
+            if (brPitanja <= 30)
+            {
+                t = brIgraca120 + brIgraca90 + brIgraca60 + brIgraca30;
+                zapisIgraca(t, ime, bodovi, brPitanja, prosjek);
+            }
+            else if (brPitanja <= 60)
+            {
+                t = brIgraca120 + brIgraca90 + brIgraca60;
+                zapisIgraca(t, ime, bodovi, brPitanja, prosjek);
+            }
+            else if (brPitanja <= 90)
+            {
+                t = brIgraca120 + brIgraca90;
+                zapisIgraca(t, ime, bodovi, brPitanja, prosjek);
+            }
+            else
+            {
+                zapisIgraca(brIgraca120, ime, bodovi, brPitanja, prosjek);
+            }
+
+            sortiranjeIgracaPitanja(brIgraca30, brIgraca60, brIgraca90, brIgraca120);
+            t = brIgraca120 + brIgraca90 + brIgraca60;
+            sortiranjeIgracaProsjek(brIgraca30, t);
+            t = brIgraca120 + brIgraca90;
+            sortiranjeIgracaProsjek(brIgraca60, t);
+            t = brIgraca120;
+            sortiranjeIgracaProsjek(brIgraca90, t);
+            sortiranjeIgracaProsjek(brIgraca120, 0);
+            fstream data120("leaderboard_120.bin", ios::binary | ios::out);
+            fstream data90("leaderboard_90.bin", ios::binary | ios::out);
+            fstream data60("leaderboard_60.bin", ios::binary | ios::out);
+            fstream data30("leaderboard_30.bin", ios::binary | ios::out);
+            t = brIgraca120 + brIgraca90 + brIgraca60 + brIgraca30;
+            for (int i = 0; i < t; i++)
+            {
+                if (igrac[i].pitanja <= 30)
+                {
+                    data30.write((char *)&igrac[i], sizeof(igrac[i]));
+                }
+                else if (igrac[i].pitanja <= 60)
+                {
+                    data60.write((char *)&igrac[i], sizeof(igrac[i]));
+                }
+                else if (igrac[i].pitanja <= 90)
+                {
+                    data90.write((char *)&igrac[i], sizeof(igrac[i]));
+                }
+                else
+                {
+                    data120.write((char *)&igrac[i], sizeof(igrac[i]));
+                }
+            }
+            data120.close();
+            data90.close();
+            data60.close();
+            data30.close();
         }
 
         else if (izbor == 9)
