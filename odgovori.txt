@@ -115,19 +115,19 @@ C) special
 A) tip naziv = new tip[];
 B) tip naziv = new naziv[];
 C) tip naziv[];
-A) naredba koja određuje predzadnji dio koda
-B) skupina naredbi koje će biti testirane na pogreške dok se izvršava kod 
-C) skupina naredbi koje če ispisati "Try me" dok se ne ugasi kod
-A) skupina naredbi koje se ne izvršavaju
-B) ključna riječ koja služio kao return 0 u c#
+A) Naredba koja određuje predzadnji dio koda
+B) Skupina naredbi koje će biti testirane na pogreške dok se izvršava kod 
+C) Skupina naredbi koje če ispisati "Try me" dok se ne ugasi kod
+A) Skupina naredbi koje se ne izvršavaju
+B) Ključna riječ koja služio kao return 0 u C#
 C) Dio koda koji se uvijek izvršava
 A) Metoda
-B) funkcija
-C) zadatak
-A) Naravno, isto kao u c++-u
+B) Funkcija
+C) Zadatak
+A) Naravno, isto kao u C++
 B) Nisam siguran
 C) Nema, jer je objektno orijentiran jezik
-A) neznam
+A) Ne znam
 B) comp
 C) var
 A) get.classtype
@@ -137,14 +137,14 @@ A) Console.WriteLine("Hello World");
 B) System.out.println("Hello World");  
 C) cout<<"Hello World";
 A) Naravno da je
-B) Možda, nisam siguran/na
+B) Možda, nemam pojma
 C) Ne
 A) Isto kao u Pascal-u
 B) Isto kao u Python-u
 C) Isto kao u C#
-A) u cash-u
-B) na heap-u
-C) na hard disku
+A) U cache-u
+B) Na heap-u
+C) Na hard disku
 A) getEnum()
 B) GetEnum()
 C) getEnumConstants()
@@ -154,27 +154,27 @@ C) Dinamic
 A) Arrays.sort()
 B) sort.array()
 C) Sort()
-A) u SSD-u
-B) u procesoru
-C) isto kao i objekt
+A) U SSD-u
+B) U procesoru
+C) Isto kao i objekt
 A) Arra.copy()
 B) Copy.System()
 C) System.arrayCopy()
-A) komentarima
-B) tipovima referenci
-C) poljima
-A) dekapsulacija
-B) abstrakcija
-C) enkapsulacija
+A) Komentarima
+B) Tipovima referenci
+C) Poljima
+A) Dekapsulacija
+B) Abstrakcija
+C) Enkapsulacija
 A) while
 B) for
 C) do-while
 A) for
 B) while
 C) do-while
-A) novi string objekt se kreira
-B) u jedan od sringa se spreme obadvije vrijednosti
-C) ibrišu se vrijednosti iz stringova
+A) Novi string objekt se kreira
+B) U jedan od sringa se spreme obadvije vrijednosti
+C) Izbrišu se vrijednosti iz stringova
 A) compare()
 B) equals()
 C) string.c()
@@ -268,12 +268,12 @@ C)
 A) 
 B) 
 C) 
-A) na engleski
-B) neznam, to je prenapredno za mene
-C) u jezik po odabiru
+A) Na engleski
+B) Neznam, to je prenapredno za nas
+C) U jezik po odabiru
 A) Možda
-B) naravno da je
-C) nije
+B) Naravno da je
+C) Nije
 A) println
 B) printf
 C) cout
@@ -283,24 +283,24 @@ C) int
 A) ?;
 B) ?:
 C) :?
-A) provjerava uvjet te elemenu daje jednu od vrijednosti, ovisno o zadovoljenosti uvjeta
-B) provjerava veličinu varijable
-C) provjerava adresu varijable
+A) Provjerava uvjet te elemenu daje jednu od vrijednosti, ovisno o zadovoljenosti uvjeta
+B) Provjerava veličinu varijable
+C) Provjerava adresu varijable
 A) Je li varijabla jednaka NULL
-B) je li varijabla blizu NULL
+B) Je li varijabla blizu NULL
 C) Je li varijabla pozitivan broj
-A) neznam
+A) Ne znam
 B) Nema
 C) Ima
-A) kinesko slovo
-B) anonimna funkcija
-c) lainsko slovo
-A) ne, samo podržava takvo programiranje
-B) možda
-C) naravno da je
-A) funkcija višeg stupnja
-B) lambda
-C) funkcija višeg reda
+A) Kinesko slovo
+B) Anonimna funkcija
+c) Lainsko slovo
+A) Ne, samo podržava takvo programiranje
+B) Možda
+C) Naravno da je
+A) Funkcija višeg stupnja
+B) Lambda
+C) Funkcija višeg reda
 A) fun
 B) function 
 C) create
@@ -323,14 +323,14 @@ A) &
 B) $
 C) #
 A) ;
-B) ništa
+B) Ništa
 C) .
 A) VBScript
 B) JavaScript
 C) Pearl i C
 A) ' ' ili " "
-B) isključivo s " "
-C) bez posebnih znakova
+B) Isključivo s " "
+C) Bez posebnih znakova
 A) Možda, nisam siguran/na
 B) Ne
 C) Da, naravno
@@ -343,9 +343,9 @@ C) Ne
 A) 
 B) 
 C) 
-A) slićno c-u ali za jednu liniju se može kao i u pythonu
-B) isto kao i u JavaScriptu
-C) slićno kao u C#
+A) Slično C-u ali za jednu liniju se može kao i u Pythonu
+B) Isto kao i u JavaScriptu
+C) Slično kao u C#
 A) Jesu
 B) Ne, rade sličnu stvar ali nisu
 C) Možda
