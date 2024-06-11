@@ -116,10 +116,5 @@ PHP: Koja je točna linija?
 PHP: Kako zapisujemo komentare?
 PHP: Rade li funkcije die() i exit() istu stvar?
 PHP: Kako kreiramo kolačiće?
-PHP: Koji operaor uspoređuje dvije varijable istog tipa?
+PHP: Koji operator uspoređuje dvije varijable istog tipa?
 PHP: Kako kreiramo polje?
-
-
-
-
-//sedam dana sedam noci cekao sm kad ces doci

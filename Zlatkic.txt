@@ -13,11 +13,6 @@ Z:
 Z: 
 Z: 
 Z: 
-Z: 
-Z: 
-Z: 
-Z: 
-Z: 
 A) 1971.
 B) 1972.
 C) 1973.
@@ -63,21 +58,6 @@ C)
 A) 
 B) 
 C) 
-A) 
-B) 
-C) 
-A) 
-B) 
-C) 
-A) 
-B) 
-C) 
-A) 
-B) 
-C) 
-A) 
-B) 
-C) 
 b
 c
 b
@@ -93,9 +73,4 @@ c
 a
 b
 c
-a
-b
-b
-c
-b
 //Which keyword is used to import a package from the Java API library?

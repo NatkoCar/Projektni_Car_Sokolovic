@@ -60,13 +60,19 @@ void unosIgraca(string &ime)
     cout << "Unesite svoje ime: ";
     getline(cin, ime);
 }
-void Zlatko(string &ime,int &brPitanja){
-    if(ime=="Zlako Damijanić"){
-        brPitanja=30;
+
+void Zlatko(string &ime, int &brPitanja)
+{
+    if (ime == "Zlako Damijanić")
+    {
+        brPitanja = 15;
     }
 }
-void Zpitanja(int index[]){
+
+void Zpitanja(int index[])
+{
 }
+
 void brojPitanja(int &brPitanja)
 {
     cout << "Na koliko pitanja želite odgovoriti? (1-120) ";
@@ -91,7 +97,7 @@ void redoslijedPitanja(int brPitanja, int index[])
     {
         do
         {
-            index[i] = rand() % brPitanja;
+            index[i] = rand() % 120;
             z = false;
             for (int j = 0; j < i; j++)
             {
@@ -108,6 +114,60 @@ void redoslijedPitanja(int brPitanja, int index[])
 void leaderboard(int &izbor_L, int brIgraca30, int brIgraca60, int brIgraca90, int brIgraca120, int &izbor)
 {
     struct Igrac igrac[41];
+    ifstream lead30("C:\\Users\\sokol\\OneDrive\\Dokumenti\\GitHub\\Projektni_Car_Sokolovic\\leaderboard_30.bin", ios::binary | ios::out);
+    ifstream lead60("C:\\Users\\sokol\\OneDrive\\Dokumenti\\GitHub\\Projektni_Car_Sokolovic\\leaderboard_60.bin", ios::binary | ios::out);
+    ifstream lead90("C:\\Users\\sokol\\OneDrive\\Dokumenti\\GitHub\\Projektni_Car_Sokolovic\\leaderboard_90.bin", ios::binary | ios::out);
+    ifstream lead120("C:\\Users\\sokol\\OneDrive\\Dokumenti\\GitHub\\Projektni_Car_Sokolovic\\leaderboard_120.bin", ios::binary | ios::out);
+
+    if (lead30)
+    {
+        lead30.read((char *)&igrac[brIgraca30], sizeof(Igrac));
+        brIgraca30++;
+        while (!lead30.eof())
+        {
+            brIgraca30++;
+            lead30.read((char *)&igrac[brIgraca30], sizeof(Igrac));
+        }
+        lead30.close();
+    }
+
+    if (lead60)
+    {
+        lead60.read((char *)&igrac[brIgraca60], sizeof(Igrac));
+        brIgraca60++;
+        while (!lead60.eof())
+        {
+            lead60.read((char *)&igrac[brIgraca60], sizeof(Igrac));
+            brIgraca60++;
+        }
+        lead60.close();
+    }
+
+    if (lead90)
+    {
+        lead90.read((char *)&igrac[brIgraca90], sizeof(Igrac));
+        brIgraca90++;
+        while (!lead90.eof())
+        {
+            lead90.read((char *)&igrac[brIgraca90], sizeof(Igrac));
+            brIgraca90++;
+        }
+        lead90.close();
+    }
+
+    if (lead120)
+    {
+        lead120.read((char *)&igrac[brIgraca120], sizeof(Igrac));
+        brIgraca120++;
+        while (!lead120.eof())
+        {
+            lead120.read((char *)&igrac[brIgraca120], sizeof(Igrac));
+            brIgraca120++;
+        }
+        lead120.close();
+    }
+
+Ponovo:
     cout << "Koju ljestvicu želite pogledati?" << endl;
     cout << "1. 1-30 pitanja" << endl;
     cout << "2. 31-60 pitanja" << endl;
@@ -181,6 +241,11 @@ void leaderboard(int &izbor_L, int brIgraca30, int brIgraca60, int brIgraca90, i
     {
         izbor = 0;
     }
+
+    if (izbor != 0)
+    {
+        goto Ponovo;
+    }
 }
 
 void zapisIgraca(int t, string ime, int bodovi, int brPitanja, double prosjek)
@@ -211,6 +276,23 @@ void sortiranjeIgracaProsjek(int brIgraca, int t)
                 swap(igrac[i + t], igrac[j + t]);
 }
 
+bool provjeraUnosa(string u, string tocan)
+{
+    for (int i = 0; i < u.size(); i++)
+    {
+        u[i] = tolower(u[i]);
+        if (!(u[i] == 'a' || u[i] == 'b' || u[i] == 'c'))
+        {
+            u.erase(i, 1);
+            i--;
+        }
+    }
+    if (u == tocan)
+        return true;
+    else
+        return false;
+}
+
 int main()
 {
     srand(time(0));
@@ -220,7 +302,7 @@ int main()
 
     // datoteke - leaderboard
     {
-        fstream lead120("leaderboard_120.bin", ios::binary | ios::in);
+        fstream lead120("C:\\Users\\sokol\\OneDrive\\Dokumenti\\GitHub\\Projektni_Car_Sokolovic\\leaderboard_120.bin", ios::binary | ios::in);
         while (lead120.read((char *)&igrac[brIgraca], sizeof(igrac)))
         {
             brIgraca++;
@@ -228,7 +310,7 @@ int main()
         }
         lead120.close();
 
-        fstream lead90("leaderboard_90.bin", ios::binary | ios::in);
+        fstream lead90("C:\\Users\\sokol\\OneDrive\\Dokumenti\\GitHub\\Projektni_Car_Sokolovic\\leaderboard_90.bin", ios::binary | ios::in);
         while (lead90.read((char *)&igrac[brIgraca], sizeof(igrac)))
         {
             brIgraca++;
@@ -236,7 +318,7 @@ int main()
         }
         lead90.close();
 
-        fstream lead60("leaderboard_60.bin", ios::binary | ios::in);
+        fstream lead60("C:\\Users\\sokol\\OneDrive\\Dokumenti\\GitHub\\Projektni_Car_Sokolovic\\leaderboard_60.bin", ios::binary | ios::in);
         while (lead60.read((char *)&igrac[brIgraca], sizeof(igrac)))
         {
             brIgraca++;
@@ -244,7 +326,7 @@ int main()
         }
         lead60.close();
 
-        fstream lead30("leaderboard_30.bin", ios::binary | ios::in);
+        fstream lead30("C:\\Users\\sokol\\OneDrive\\Dokumenti\\GitHub\\Projektni_Car_Sokolovic\\leaderboard_30.bin", ios::binary | ios::in);
         while (lead30.read((char *)&igrac[brIgraca], sizeof(igrac)))
         {
             brIgraca++;
@@ -272,72 +354,82 @@ int main()
             prazanRed(1);
             cout << "Uživajte!";
             prazanRed(3);
-            int *index = new int[brPitanja];
+            int *index = new int[120];
             for (int i = 0; i < brPitanja; i++)
                 index[i] = 0;
             redoslijedPitanja(brPitanja, index);
-            struct Pitanja pita[brPitanja];
+            struct Pitanja pita[120];
             for (int i = 0; i < brPitanja; i++)
             {
                 cout << index[i] << " ";
             }
+            prazanRed(1);
 
             // datoteke - pitanja
             {
-                fstream pit("C:\\Users\\Ga-gama\\Documents\\GitHub\\Projektni_Car_Sokolovic\\pitanja.txt", ios::in);
+                t = 0;
+                fstream pit("C:\\Users\\sokol\\OneDrive\\Dokumenti\\GitHub\\Projektni_Car_Sokolovic\\pitanja.txt", ios::in);
                 while (getline(pit, pitanje))
                 {
-                    pita[index[t]].pitanje = pitanje;
+                    pita[t].pitanje = pitanje;
                     t++;
-                    if (t == brPitanja)
-                        break;
+                    /*if (t == brPitanja)
+                        break;*/
                 }
                 pit.close();
                 t = 0;
-                fstream toc("C:\\Users\\Ga-gama\\Documents\\GitHub\\Projektni_Car_Sokolovic\\tocni_odgovori.txt", ios::in);
+                fstream toc("C:\\Users\\sokol\\OneDrive\\Dokumenti\\GitHub\\Projektni_Car_Sokolovic\\tocni_odgovori.txt", ios::in);
                 while (getline(toc, tocan))
                 {
-                    pita[index[t]].tocanOdgovor = tocan;
+                    pita[t].tocanOdgovor = tocan;
                     t++;
-                    if (t == brPitanja)
-                        break;
+                    /*if (t == brPitanja)
+                        break;*/
                 }
                 toc.close();
                 t = 0;
-                fstream odg("C:\\Users\\Ga-gama\\Documents\\GitHub\\Projektni_Car_Sokolovic\\odgovori.txt", ios::in);
+                int priv = 0;
+                fstream odg("C:\\Users\\sokol\\OneDrive\\Dokumenti\\GitHub\\Projektni_Car_Sokolovic\\odgovori.txt", ios::in);
                 while (getline(odg, odgovor))
                 {
-                    if (t == 0)
+                    if (priv == 0)
                     {
-                        pita[index[t]].odgovor1 = odgovor;
-                        t = 1;
+                        pita[t].odgovor1 = odgovor;
+                        priv = 1;
                     }
-                    else if (t == 1)
+                    else if (priv == 1)
                     {
-                        pita[index[t]].odgovor2 = odgovor;
-                        t = 2;
+                        pita[t].odgovor2 = odgovor;
+                        priv = 2;
                     }
-                    else if (t == 2)
+                    else if (priv == 2)
                     {
-                        pita[index[t]].odgovor3 = odgovor;
-                        t = 0;
+                        pita[t].odgovor3 = odgovor;
+                        t++;
+                        priv = 0;
                     }
+                    /*if (t == brPitanja)
+                        break;*/
                 }
             }
 
             for (int i = 0; i < brPitanja; i++)
             {
-                cout << pita[i].pitanje << endl;
-                cout << pita[i].odgovor1 << endl;
-                cout << pita[i].odgovor2 << endl;
-                cout << pita[i].odgovor3 << endl;
+                prazanRed(1);
+                cout << pita[index[i]].pitanje << endl;
+                prazanRed(1);
+                cout << pita[index[i]].odgovor1 << endl;
+                cout << pita[index[i]].odgovor2 << endl;
+                cout << pita[index[i]].odgovor3 << endl;
+                prazanRed(1);
                 cin >> unos;
-                if (unos != pita[i].tocanOdgovor && tocnihZaredom >= 5)
+                if (!provjeraUnosa(unos, pita[index[i]].tocanOdgovor) && tocnihZaredom >= 5)
                 {
+                    prazanRed(1);
                     cout << "Posrećilo ti se ovaj put..." << endl;
                     tocnihZaredom = 0;
                 }
-                else if (unos != pita[i].tocanOdgovor)
+                else if (!provjeraUnosa(unos, pita[index[i]].tocanOdgovor))
                 {
                     cout << "Žao nam je, to je netočan odgovor." << endl;
                     break;
@@ -356,20 +448,24 @@ int main()
             {
                 t = brIgraca120 + brIgraca90 + brIgraca60 + brIgraca30;
                 zapisIgraca(t, ime, bodovi, brPitanja, prosjek);
+                brIgraca30++;
             }
             else if (brPitanja <= 60)
             {
                 t = brIgraca120 + brIgraca90 + brIgraca60;
                 zapisIgraca(t, ime, bodovi, brPitanja, prosjek);
+                brIgraca60++;
             }
             else if (brPitanja <= 90)
             {
                 t = brIgraca120 + brIgraca90;
                 zapisIgraca(t, ime, bodovi, brPitanja, prosjek);
+                brIgraca90++;
             }
             else
             {
                 zapisIgraca(brIgraca120, ime, bodovi, brPitanja, prosjek);
+                brIgraca120++;
             }
 
             sortiranjeIgracaPitanja(brIgraca30, brIgraca60, brIgraca90, brIgraca120);
@@ -380,16 +476,20 @@ int main()
             t = brIgraca120;
             sortiranjeIgracaProsjek(brIgraca90, t);
             sortiranjeIgracaProsjek(brIgraca120, 0);
-            fstream data120("leaderboard_120.bin", ios::binary | ios::out);
-            fstream data90("leaderboard_90.bin", ios::binary | ios::out);
-            fstream data60("leaderboard_60.bin", ios::binary | ios::out);
-            fstream data30("leaderboard_30.bin", ios::binary | ios::out);
+            fstream data120("C:\\Users\\sokol\\OneDrive\\Dokumenti\\GitHub\\Projektni_Car_Sokolovic\\leaderboard_120.bin", ios::binary | ios::out);
+            fstream data90("C:\\Users\\sokol\\OneDrive\\Dokumenti\\GitHub\\Projektni_Car_Sokolovic\\leaderboard_90.bin", ios::binary | ios::out);
+            fstream data60("C:\\Users\\sokol\\OneDrive\\Dokumenti\\GitHub\\Projektni_Car_Sokolovic\\leaderboard_60.bin", ios::binary | ios::out);
+            fstream data30("C:\\Users\\sokol\\OneDrive\\Dokumenti\\GitHub\\Projektni_Car_Sokolovic\\leaderboard_30.bin", ios::binary | ios::out);
             t = brIgraca120 + brIgraca90 + brIgraca60 + brIgraca30;
             for (int i = 0; i < t; i++)
             {
                 if (igrac[i].pitanja <= 30)
                 {
                     data30.write((char *)&igrac[i], sizeof(igrac[i]));
+                    if (data30.good())
+                        cout << "dobarr" << endl;
+                    else
+                        cout << "sranjek" << endl;
                 }
                 else if (igrac[i].pitanja <= 60)
                 {
