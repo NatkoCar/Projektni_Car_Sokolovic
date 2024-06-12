@@ -38,14 +38,4 @@ C) Možda, al ne u našim životima
 A) 1995.
 B) 1996.
 C) 1997.
-b
-c
-b
-c
-b
-a
-b
-a
-c
-a
 //Which keyword is used to import a package from the Java API library?
