@@ -223,51 +223,51 @@ C) Ne mogu
 A) Kristi
 B) Ne koristi
 C) Ne znam šo je to
+A) p("Hello World")
+B) print("Hello World")  
+C) echo("Hello World");
+A) .p
+B) .ph
+C) .py
 A) 
+B) 
+C) print(type(x))  
+A) def myFunction():  
 B) 
 C) 
 A) 
-B) 
+B) strip()  
 C) 
 A) 
 B) 
-C) 
-A) 
+C) my-var  
+A) print(type(x))  
 B) 
 C) 
 A) 
-B) 
+B) # za jednu liniju,a /* */ za više
 C) 
-A) 
-B) 
-C) 
-A) 
-B) 
-C) 
-A) 
-B) 
-C) 
-A) 
-B) 
-C) 
-A) 
-B) 
-C) 
-A) 
-B) 
-C) 
-A) 
-B) 
-C) 
-A) 
-B) 
-C) 
-A) 
-B) 
-C) 
-A) 
-B) 
-C) 
+A) get() i print()
+B) input() i print()
+C) print() i scanf()
+A) jednaki nuli
+B) privatni
+C) javni
+A) timer error
+B) Logical error
+C) runtime error
+A) __get__
+B) __name__
+C) __get__name__
+A) predstavlja klasu
+B) pretstavlja instancu klase
+C) vrijednos klase
+A) _
+B) #
+C) &
+A) while
+B) oboje
+C) if
 A) Na engleski
 B) Neznam, to je prenapredno za nas
 C) U jezik po odabiru

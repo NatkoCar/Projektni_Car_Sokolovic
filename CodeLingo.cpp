@@ -65,7 +65,7 @@ void Zlatko(string &ime, int &brPitanja)
 {
     if (ime == "Zlako Damijanić")
     {
-        brPitanja = 15;
+        brPitanja = 10;
     }
 }
 
