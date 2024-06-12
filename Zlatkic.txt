@@ -8,11 +8,6 @@ Z: Koja je prva igra napravljena u Unity-ju?
 Z: Kako se zove jezik koji je kombinacija C, C++ i Jave?
 Z: Hoće li Kotlin ikada zamijeniti Javu?
 Z: Kada je napravljena prva stranica u JavaScriptu?
-Z: 
-Z: 
-Z: 
-Z: 
-Z: 
 A) 1971.
 B) 1972.
 C) 1973.
@@ -43,21 +38,6 @@ C) Možda, al ne u našim životima
 A) 1995.
 B) 1996.
 C) 1997.
-A) 
-B) 
-C) 
-A) 
-B) 
-C) 
-A) 
-B) 
-C) 
-A) 
-B) 
-C) 
-A) 
-B) 
-C) 
 b
 c
 b
@@ -68,9 +48,4 @@ b
 a
 c
 a
-a
-c
-a
-b
-c
 //Which keyword is used to import a package from the Java API library?

@@ -111,7 +111,7 @@ PHP: Kojem jeziku je najsličniji po sintaksi?
 PHP: S kojim znakovima označavamo stringove?
 PHP: Trebaju li biblioteke imati ".inc" ekstenziju?
 PHP: Kako deklariramo funkciju?
-PHP: Dopušta sljanje emailova direktno iz skripte?
+PHP: Dopušta li sljanje emailova direktno iz skripte?
 PHP: Koja je točna linija?
 PHP: Kako zapisujemo komentare?
 PHP: Rade li funkcije die() i exit() istu stvar?
