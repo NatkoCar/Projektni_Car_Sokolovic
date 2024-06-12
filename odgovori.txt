@@ -178,51 +178,51 @@ C) Izbrišu se vrijednosti iz stringova
 A) compare()
 B) equals()
 C) string.c()
-A) 
-B) 
-C) 
-A) 
-B) 
-C) 
-A) 
-B) 
-C) 
-A) 
-B) 
-C) 
-A) 
-B) 
-C) 
-A) 
-B) 
-C) 
-A) 
-B) 
-C) 
-A) 
-B) 
-C) 
-A) 
-B) 
-C) 
-A) 
-B) 
-C) 
-A) 
-B) 
-C) 
-A) 
-B) 
-C) 
-A) 
-B) 
-C) 
-A) 
-B) 
-C) 
-A) 
-B) 
-C) 
+A) <header>
+B) <script>
+C) <footer>
+A) <head> i <body>
+B) <head>
+C) <body>
+A) alertBox("Hello World");
+B) alert("Hello World");  
+C) msgBox("Hello World");
+A) s //
+B) Isto ko u c++-u
+C) s /* */
+A) var colors = (1:"red", 2:"green", 3:"blue")
+B) var colors = ["red", "green", "blue"]  
+C) var colors = "red", "green", "blue"  
+A) round(7.25)  
+B) Math.rnd(7.25)
+C) Math.round(7.25) 
+A) w1 = window.open("http://www.w3schools.com");  
+B) w2 = window.open("http://www.w3schools.com");  
+C) w2 = window.new("http://www.w3schools.com");
+A) Nije
+B) Je
+C) Neznam
+A) client.navName
+B) navigator.appName  
+C) browser.name 
+A) v carName;
+B) variable carName; 
+C) var carName;  
+A) JE, jako
+B) Nije
+C) možda
+A) Što je to
+B) Je
+C) Nije
+A) broj manji od nule
+B) vrijednost nule
+C) nedostatak vrijednosti
+A) možda
+B) Mogu
+C) Ne mogu
+A) Kristi
+B) Ne koristi
+C) Ne znam šo je to
 A) 
 B) 
 C) 
